@@ -8,6 +8,7 @@ import chalk from "chalk";
 
 const data = {
     name: chalk.bold.green("Sofiane"),
-};
-
-console.log(data.name)
+    work: chalk.white("Développeur passionné"),
+}
+console.log(data.name);
+console.log(data.work);
