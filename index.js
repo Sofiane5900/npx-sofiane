@@ -11,8 +11,10 @@ const data = {
     work: chalk.white("Développeur passionné"),
     github: chalk.gray("https://github.com/") + chalk.green("Sofiane5900"),
     portfolio: chalk.cyan("https://portfolio-sofiane.vercel.app/"),
+    discord: chalk.magenta("sofiane590_"),
 }
 console.log(data.name);
 console.log(data.work);
 console.log(data.github);
 console.log(data.portfolio);
+console.log(data.discord);
