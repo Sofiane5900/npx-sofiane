@@ -6,6 +6,8 @@
 import clear from "clear";
 import chalk from "chalk";
 import boxen from "boxen";
+import inquirer from "inquirer";
+import open from "open";
 
 clear();
 
@@ -40,3 +42,41 @@ const aboutMe = boxen([
 
 console.log(aboutMe);
 
+const prompt = inquirer.createPromptModule();
+
+const questions = [
+    {
+        // On défini le type du prompt
+        type: "list",
+        name: "action",
+        message: "What is your choice ?",
+        choices: [
+            {
+                name: `Open my ${chalk.gray.bold("GitHub")}`,
+                value: () => {
+                    open("https://github.com/Sofiane5900");
+                    console.log("\nGitHub is open in your browser !\n");
+                }
+            },
+            {
+                name: `Visit my ${chalk.blue.bold("Portfolio")}`,
+                value: () => {
+                    open("https://portfolio-sofiane.vercel.app/");
+                    console.log("\nMy portfolio is open in your browser !\n");
+                }
+            },
+            {
+                name: `Copy my ${chalk.magentaBright.bold("Discord")}`,
+                value: () => {
+                    console.log(`\nAdd me on Discord : ${chalk.magentaBright.bold("sofiane590_")}`);
+                }
+            },
+            {
+                name: chalk.red("Quit..."),
+                value: () => {
+                    console.log("\nSee you soon ! 👋\n");
+                }
+            }
+        ]
+    }
+];
