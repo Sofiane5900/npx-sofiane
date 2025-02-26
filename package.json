@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "sofiane": "./index.js"
   },
@@ -12,5 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "clear": "^0.1.0",
+    "cli-spinners": "^3.2.0",
+    "inquirer": "^12.4.2",
+    "open": "^10.1.0",
+    "ora": "^8.2.0"
+  }
 }
