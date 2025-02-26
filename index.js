@@ -44,6 +44,7 @@ console.log(aboutMe);
 
 const prompt = inquirer.createPromptModule();
 
+// Retourne une promesse
 const questions = [
     {
         // On défini le type du prompt
@@ -80,3 +81,7 @@ const questions = [
         ]
     }
 ];
+
+prompt(questions)
+    //action contient l'objet correspondant au choix, answer.action() execute l'action du choix
+.then(answer => answer.action());
