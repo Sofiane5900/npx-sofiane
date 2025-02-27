@@ -49,6 +49,12 @@ chmod +x index.js
 git update-index --chmod=+x index.js
 ```
 
+Tu peux maintenant aussi "link" ta commande pour la tester localement : 
+
+```sh
+npm link
+```
+
 ## 📍 5. Installation des dépendances (facultatif)
 Tu peux utiliser plusieurs outils pour rendre ton CLI plus interactif et surtout plus joli ! :
 ```sh
