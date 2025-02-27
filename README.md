@@ -69,7 +69,8 @@ Je te laisse t'amuser et consulter les différentes documentations/tutoriels pou
 ## ✨ 6. Publication sur NPM
 **Si tu as fini d'écrire ton package, alors tu peux maintenant le publier !**
 
-Commence par te connecter :
+Commence par te connecter : 
+
 **PS** : Tu dois créer un compte sur le site [npm](https://www.npmjs.com/)
 ```sh
 npm login
