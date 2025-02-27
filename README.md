@@ -1,5 +1,5 @@
 # 🛠️ Comment créer un package Node.js "About Me" ?
-Créer une commande `npx` qui affiche une carte de "visite" stylée dans le terminal, avec un menu interactif !
+Je vais t'apprendre a créer une commande `npx` qui affiche une carte de "visite" (about-me) dans le terminal, avec un menu interactif 
 ---
 
 ## 📍 1. Choisir un nom de package
